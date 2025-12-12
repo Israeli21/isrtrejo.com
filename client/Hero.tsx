@@ -20,9 +20,6 @@ export function Hero() {
           <div className="stars2"></div>
           <div className="stars3"></div>
         </div>
-        
-        {/* Galaxy/Nebula Effect - Right Side */}
-        <div className="absolute right-[-20%] top-1/2 transform -translate-y-1/2 w-[800px] h-[800px] bg-gradient-radial from-blue-400/30 via-purple-400/20 to-pink-400/15 rounded-full blur-[80px] animate-pulse-slow"></div>
       </div>
 
       {/* Content */}
@@ -34,7 +31,7 @@ export function Hero() {
               : "translate-y-8 opacity-0"
           }`}
         >
-          Hi! The name's
+          Hello, I'm
         </p>
         
         <h1

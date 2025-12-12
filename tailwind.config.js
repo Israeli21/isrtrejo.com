@@ -2,8 +2,8 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-    "./public/**/*.{js,ts,jsx,tsx}",
+    "./server/**/*.{js,ts,jsx,tsx}",
+    "./client/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {

@@ -85,11 +85,29 @@ body {
     1185px 312px #FFF, 1734px 1540px #FFF;
 }
 
-@keyframes animStar {
+@keyframes animStar .stars1 {
   from {
-    transform: translateY(0px);
+    transform: expand(0);
   }
   to {
-    transform: translateY(-2000px);
+    transform: expand(1);
+  }
+}
+
+@keyframes animStar .stars2 {
+  from {
+    transform: expand(0);
+  }
+  to {
+    transform: expand(1);
+  }
+}
+
+@keyframes animStar .stars3 {
+  from {
+    transform: expand(0);
+  }
+  to {
+    transform: expand(1);
   }
 }
