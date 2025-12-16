@@ -4,9 +4,13 @@ export function About() {
       <h2 className="text-4xl md:text-5xl font-bold mb-8">About Me</h2>
       <div className="max-w-3xl text-lg md:text-xl leading-relaxed">
         <p className="mb-4">
-            Hi, I'm Israel Trejo, a computer science student with strong skills in C++ and hands-on experience with Python, HTML, CSS, and JavaScript. 
-            I'm passionate about software development and have completed projects where I built webpages where I practiced problem solving code.
-            I'm excited to apply these skills in a real-world setting and make a meaningful impact through an internship!
+          I’m Israel Trejo, currently a Senior Computer Science student at the University of Houston with a passion 
+          for <span className="font-bold">Data Science</span> and <span className="font-bold">Software Engineering</span>. 
+          I really like working on projects that makes a great impact on the world, and I believe processing data through machine learning and displaying the results is a huge step! 
+          I’m a team player that enjoys working and growing with others.
+        </p>
+        <p>
+          My hobbies outside of tech include drawing comics, animating, playing the guitar and lifting weights at home.
         </p>
       </div>
     </section>
