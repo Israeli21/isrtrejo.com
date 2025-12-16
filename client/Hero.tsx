@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { GithubIcon, LinkedinIcon } from "lucide-react";
 
 import { TopBar } from "./components/TopBar";
+import { About } from "./components/About";
 
 export function Hero() {
   const [animationComplete, setAnimationComplete] = useState(false);
@@ -78,6 +79,7 @@ export function Hero() {
         </div>
       </div>
     </section>
+    <About />
     </>
   );
 }
