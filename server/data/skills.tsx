@@ -54,6 +54,10 @@ export const skills: Skill[] = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
   },
   {
+    name: "Next.js",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+  },
+  {
     name: "Postman",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
   },
@@ -64,17 +68,25 @@ export const skills: Skill[] = [
   {
     name: "Latex",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/latex/latex-original.svg",
+  },
+  {
+    name: "Pandas",
+    icon: "https://pandas.pydata.org/static/img/pandas_mark.svg",
+  },
+    {
+    name: "Streamlit",
+    icon: "https://streamlit.io/images/brand/streamlit-mark-color.svg",
+  },
+  {
+    name: "Sklearn",
+    icon: "https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png",
+  },
+  {
+    name: "Pytorch",
+    icon: "https://pytorch.org/assets/images/pytorch-logo.png",
+  },
+  {
+    name: "Figma",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
   }
-  // {
-  //   name: "AWS",
-  //   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-line-wordmark.svg",
-  // },
-  // {
-  //   name: "GoogleCloud",
-  //   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg",
-  // },
-  // {
-  //   name: "Java",
-  //   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
-  // },
 ];
