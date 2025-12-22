@@ -4,6 +4,11 @@ export function About() {
       <h2 className="text-4xl md:text-5xl font-bold mb-8">
         About Me
       </h2>
+      <div className="absolute inset-0 opacity-70">
+        <div className="stars"></div>
+        <div className="stars2"></div>
+        <div className="stars3"></div>
+      </div>
       <div className="grid grid-cols-3">
         <div className="grid col-span-1">
           <img 

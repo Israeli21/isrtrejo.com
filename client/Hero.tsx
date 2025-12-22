@@ -19,26 +19,24 @@ export function Hero() {
 
   return (
     <><TopBar />
+      <div className="absolute inset-0 opacity-70">
+        <div className="stars"></div>
+        <div className="stars2"></div>
+        <div className="stars3"></div>
+      </div>
+      
       <section 
         id="home"
         className="relative min-h-screen w-full flex items-center px-6 md:px-12 lg:px-20 overflow-hidden"
       >
+
+      {/* Galaxy Image */}
       <div className="absolute inset-0 bg-black">
-        {/* Galaxy Image */}
         <img 
           src="/client/images/galaxy.png" 
           alt="Galaxy"
           className = "float-right pt-40 w-[780px] pr-4"
         />
-      </div>
-
-      <div>
-        {/* Animated Stars */}
-        <div className="absolute inset-0 opacity-70">
-          <div className="stars"></div>
-          <div className="stars2"></div>
-          <div className="stars3"></div>
-        </div>
       </div>
 
       {/* Content */}
