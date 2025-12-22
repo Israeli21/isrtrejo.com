@@ -1,6 +1,6 @@
 export function TopBar() {
   return ( 
-    <nav className="fixed bg-black top-0 left-0 w-full z-50 px-6 md:px-12 lg:px-20 py-6">
+    <nav className="fixed bg-black bg-gradient-to-r from-gray-900 to-black top-0 left-0 w-full z-50 px-6 md:px-12 lg:px-20 py-6">
       <div className="flex justify-between items-center">
         {/* Logo/Name on the left */}
         <div className="text-2xl font-bold text-white">

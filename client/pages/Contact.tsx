@@ -2,9 +2,14 @@ import { GithubIcon, LinkedinIcon, Mail } from "lucide-react";
 
 export function Contact() {
   return (
-    <section id="contact" className="py-20 px-6 md:px-12 lg:px-20 bg-black">
-    <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white text-center">Contact Me</h2>
-    <div className="flex justify-center gap-8 p-8 border border-gray-700 rounded-lg max-w-md mx-auto">
+    <section id="contact" className="relative min-h-screen bg-black w-full flex flex-col items-center justify-center px-6 md:px-12 lg:px-20 text-white overflow-hidden">
+    <div className="absolute inset-0 opacity-70">
+      <div className="stars"></div>
+      <div className="stars2"></div>
+      <div className="stars3"></div>
+    </div>
+    <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white text-center relative z-10">Contact Me</h2>
+    <div className="flex justify-center gap-8 p-8 border border-gray-700 rounded-lg max-w-md mx-auto relative z-10">
       <div className="flex items-center gap-4">
         <a
           href="https://www.linkedin.com/in/israel-trejo-2863a8226/"
