@@ -1,28 +1,49 @@
+import { skills as allSkills } from "../../server/data/skills";
+
 type Project = {
-    title: string;
-    description: string;
-    startDate: string;
-    endDate: string;
-    link: string;
-    skills: string[];
+  title: string;
+  description: string;
+  startDate: string;
+  endDate: string;
+  link: string;
+  skills: string[];
 };
 
 type ProjectCardProps = {
-    project: Project;
+  project: Project;
 }
 
 export default function ProjectCard({ project }: ProjectCardProps) {
-    return (
-        <div className="bg-[#13151c] border-2 border-[#4ECDC4]/30 rounded-lg p-6 hover:border-[#4ECDC4] transition-all duration-300 w-full max-w-xl cursor-pointer">
-            <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>
-            <p className="text-sm text-gray-400 mb-4">
-                {project.startDate} - {project.endDate}
-            </p>
-            <ul className="list-disc list-inside text-gray-300">
-                {project.skills.map((skill, index) => (   
-                    <li key={index} className="mb-1">{skill}</li>
-                ))}
-            </ul>
-        </div>
-    );
+  const projectSkills = project.skills.map(skillName => 
+    allSkills.find(s => s.name === skillName)
+  ).filter(Boolean);
+
+  return (
+    <div className="bg-[#13151c] border-2 border-[#4ECDC4]/30 rounded-lg p-6 hover:border-[#4ECDC4] transition-all duration-300 w-full max-w-xl cursor-pointer">
+      <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>
+      <p className="text-sm text-gray-400 mb-4">
+        {project.startDate} - {project.endDate}
+      </p>
+      <p className="text-gray-300 mb-4">{project.description}</p>
+      <div className="flex flex-wrap gap-3 mt-4">
+        {projectSkills.map((skill) => skill && (
+          <div key={skill.name} className="flex items-center gap-2 bg-[#1a1d28] px-3 py-2 rounded-lg group hover:bg-[#4ECDC4]/10 transition-colors">
+            <img
+              src={skill.icon}
+              alt={skill.name}
+              className="w-6 h-6 object-contain"
+              loading="lazy"
+              onError={(e) => {
+                e.currentTarget.src =
+                  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg";
+              }}
+            />
+            <span className="text-sm text-gray-300 group-hover:text-[#4ECDC4] transition-colors">
+              {skill.name}
+            </span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 }

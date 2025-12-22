@@ -14,7 +14,7 @@ export const projects: Project[] = [
         startDate: "January 2025",
         endDate: "February 2025",
         link: "https://example.com",
-        skills: ["React", "TypeScript", "Tailwind CSS"],
+        skills: ["Python"],
     },
     {
         title: "UH Student Campus Website",
@@ -22,7 +22,7 @@ export const projects: Project[] = [
         startDate: "Febuary 2025",
         endDate: "May 2025",
         link: "https://example.com",
-        skills: ["React", "TypeScript", "Tailwind CSS"],
+        skills: ["TypeScript", "React", "Tailwind"],
     },
     {
         title: "Coogs for Energy Hachathon Winner",
@@ -30,6 +30,6 @@ export const projects: Project[] = [
         startDate: "July 2025",
         endDate: "August 2025",
         link: "https://example.com",
-        skills: ["React", "TypeScript", "Tailwind CSS"],
+        skills: ["React", "TypeScript", "Tailwind"],
     }
 ];
