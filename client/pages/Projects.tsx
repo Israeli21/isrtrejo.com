@@ -1,6 +1,19 @@
 import ProjectCard from "../components/ProjectCard";
 import { projects } from "../../server/data/projects";
 
+import ProjectFolder from "../components/ProjectFolder";
+
+// export function Projects() {
+//   return (
+//     <section id="projects" className="min-h-screen bg-black w-full flex flex-col items-center justify-center px-6 md:px-12 lg:px-20 text-white py-20">
+//       <h2 className="text-4xl md:text-5xl font-bold mb-12">
+//         My Projects
+//       </h2>
+//       <ProjectFolder projects={projects} />
+//     </section>
+//   )
+// }
+
 export function Projects() {
   return (
     <section id="projects" className="min-h-screen bg-black w-full flex flex-col items-center justify-center px-6 md:px-12 lg:px-20 text-white">
