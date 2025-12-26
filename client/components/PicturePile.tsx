@@ -54,7 +54,7 @@ export function PicturePile({ pictures }: PicturePileProps) {
                 className="w-[full] h-[full] object-cover"
                 loading="lazy"
                 onError={(e) => {
-                  e.currentTarget.src = "/client/images/Israel_Trejo.jpg";
+                  e.currentTarget.src = "/images/Israel_Trejo.jpg";
                 }}
               />
               <div className="bg-white p-2 text-center text-black text-2xl" style={{ fontFamily: "'Great Vibes', cursive" }}>

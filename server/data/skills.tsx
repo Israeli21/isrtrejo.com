@@ -51,7 +51,7 @@ export const skills: Skill[] = [
   },
   {
     name: "Express",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    icon: "https://mvpdevelopmentteam.com/wp-content/uploads/2024/02/vector-2-3.png",
   },
   {
     name: "Next.js",
@@ -67,7 +67,7 @@ export const skills: Skill[] = [
   },
   {
     name: "Latex",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/latex/latex-original.svg",
+    icon: "https://repository-images.githubusercontent.com/62875407/37177d80-03e2-11ea-9bc8-bbe949411d11",
   },
   {
     name: "Pandas",
@@ -88,5 +88,17 @@ export const skills: Skill[] = [
   {
     name: "Figma",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
+  },
+  {
+    name: "Three.js",
+    icon: "https://canada1.discourse-cdn.com/flex035/uploads/threejs/original/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751.png",
+  },
+  {
+    name: "TensorFlow",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg",
+  },
+  {
+    name: "Vercel",
+    icon: "https://pipedream.com/s.v0/app_XaLh2x/logo/orig",
   }
 ];

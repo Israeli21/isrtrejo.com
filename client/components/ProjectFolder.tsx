@@ -57,7 +57,7 @@ export default function ProjectFolder({ projects }: ProjectFolderProps) {
         {/* Background image */}
         <img 
           className="absolute inset-0 w-full h-full object-cover opacity-20 z-0" 
-          src="/client/images/portfolio-pic-backend.png" 
+          src="/images/portfolio-pic-backend.png" 
           alt="Background"
         />
 
@@ -121,7 +121,7 @@ export default function ProjectFolder({ projects }: ProjectFolderProps) {
         {/* Front image at bottom */}
         <img 
           className="absolute bottom-0 left-0 w-full h-32 object-cover z-40" 
-          src="/client/images/portfolio-pic-frontend.png" 
+          src="/images/portfolio-pic-frontend.png" 
           alt="Foreground"
         />
       </div>

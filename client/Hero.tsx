@@ -33,7 +33,7 @@ export function Hero() {
         {/* Galaxy Image */}
         <div className="absolute inset-0 bg-black">
           <img 
-            src="/client/images/galaxy.png" 
+            src="/images/galaxy.png" 
             alt="Galaxy"
             className = "float-right pt-40 w-[780px] pr-4"
           />
