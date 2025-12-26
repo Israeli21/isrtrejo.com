@@ -28,7 +28,7 @@ export function PicturePile({ pictures }: PicturePileProps) {
   };
 
   return (
-    <div className="relative w-[350px] h-[400px]">
+    <div className="relative w-[400px] h-[400px]">
       {pictures.map((picture, index) => {
         const isVisible = index >= currentIndex;
         const stackOrder = index - currentIndex;
@@ -36,7 +36,7 @@ export function PicturePile({ pictures }: PicturePileProps) {
         return (
           <div
             key={index}
-            className={`absolute inset-0 transition-all duration-500 ${
+            className={`absolute font-bold inset-0 transition-all duration-500 ${
               isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'
             }`}
             style={{
@@ -51,13 +51,13 @@ export function PicturePile({ pictures }: PicturePileProps) {
               <img
                 src={picture.picture}
                 alt={picture.name}
-                className="w-full h-[350px] object-cover"
+                className="w-[full] h-[full] object-cover"
                 loading="lazy"
                 onError={(e) => {
                   e.currentTarget.src = "/client/images/Israel_Trejo.jpg";
                 }}
               />
-              <div className="bg-white p-2 text-center text-black font-handwriting">
+              <div className="bg-white p-2 text-center text-black text-2xl" style={{ fontFamily: "'Great Vibes', cursive" }}>
                 {picture.name}
               </div>
             </div>

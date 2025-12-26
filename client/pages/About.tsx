@@ -16,13 +16,13 @@ export function About() {
         <div className="grid col-span-1 flex items-center justify-center">
           <PicturePile pictures={pictures} />
         </div>
-        <div className="grid col-span-2 pl-12 max-w-3xl text-lg md:text-xl leading-relaxed">
+        <div className="grid col-span-2 pl-20 max-w-3xl text-lg md:text-xl leading-relaxed">
           <div className="flex flex-col justify-center h-full">
             <p className="mb-4">
               I’m Israel Trejo, currently a Senior Computer Science student at the University of Houston with a passion 
               for <span className="font-bold">Data Science</span> and <span className="font-bold">Software Engineering</span>. 
-              I really like working on projects that makes a great impact on the world, and I believe processing data through machine learning and displaying the results is a huge step! 
-              I’m a team player that enjoys working and growing with others.
+              I really like working on projects that makes a great impact on the world.
+              I’m a team player that enjoys working and growing with others!
             </p>
             <p>
               My hobbies outside of tech include drawing comics, animating, playing the guitar and lifting weights at home.
