@@ -33,14 +33,14 @@ export function Hero() {
         {/* Galaxy Image */}
         <div className="absolute inset-0 bg-black">
           <img 
-            src="/images/galaxy.png" 
+            src="/images/galaxy.jpg" 
             alt="Galaxy"
-            className = "float-right pt-40 w-[780px] pr-4"
+            className = "float-right pt-44 w-[870px] pr-24"
           />
         </div>
 
         {/* Content */}
-        <div className={`relative z-10 max-w-2xl pl-8 transition-all duration-700 ${
+        <div className={`relative z-10 max-w-2xl pl-12 transition-all duration-700 ${
               animationComplete
                 ? "translate-y-0 opacity-100"
                 : "translate-y-8 opacity-0"
