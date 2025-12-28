@@ -7,7 +7,6 @@ import { Skills } from "./pages/Skills";
 import { Experience } from "./pages/Experience";
 import { Projects } from "./pages/Projects";
 import { Contact } from "./pages/Contact";
-import { BottomBar } from "./components/BottomBar";
 
 export function Hero() {
   const [animationComplete, setAnimationComplete] = useState(false);
@@ -54,10 +53,12 @@ export function Hero() {
             Exploring the universe of tech</p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
-            <button className="px-8 py-4 text-base font-medium rounded-full border-2 border-white bg-transparent text-white hover:bg-white hover:text-black transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_10px_25px_rgba(255,255,255,0.2)]"
-                    >
-              Download CV
-            </button>
+            <a href="/resume/Israel_Trejo_Resume.pdf" download="Israel_Trejo_Resume.pdf">
+              <button className="px-8 py-4 text-base font-medium rounded-full border-2 border-white bg-transparent text-white hover:bg-white hover:text-black transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_10px_25px_rgba(255,255,255,0.2)]"
+                      >
+                Download CV
+              </button>
+            </a>
             <a href="#contact">
               <button className="px-8 py-4 text-base font-medium rounded-full border-2 border-white bg-white text-black hover:bg-transparent hover:text-white transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_10px_25px_rgba(255,255,255,0.2)]">
                 Contact Info
