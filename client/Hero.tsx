@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { GithubIcon, LinkedinIcon } from "lucide-react";
+import { GithubIcon, LinkedinIcon, ArrowDownIcon } from "lucide-react";
 
 import { TopBar } from "./components/TopBar";
 import { About } from "./pages/About";
@@ -19,7 +19,7 @@ export function Hero() {
   return (
     <>
       <TopBar />
-      <div className="absolute inset-0 opacity-70">
+      <div className="absolute inset-0 opacity-70 pointer-events-none">
         <div className="stars"></div>
         <div className="stars2"></div>
         <div className="stars3"></div>
@@ -34,12 +34,21 @@ export function Hero() {
           <img 
             src="/images/galaxy.jpg" 
             alt="Galaxy"
-            className = "float-right pt-44 w-[870px] pr-24"
+            className = "float-right pt-44 w-[900px] pr-32"
           />
         </div>
 
+        <a
+          href="#about"
+          className="absolute bottom-12 left-1/2 transform -translate-x-1/2 flex flex-col items-center 
+                    text-gray-400 hover:text-[#4ECDC4] transition-colors duration-300"
+        >
+          <p className="text-sm mb-2">Scroll Down</p>
+          <ArrowDownIcon size={20} className="animate-bounce"/>
+        </a>
+
         {/* Content */}
-        <div className={`relative z-10 max-w-2xl pl-12 transition-all duration-700 ${
+        <div className={`relative z-10 max-w-2xl pl-16 transition-all duration-700 ${
               animationComplete
                 ? "translate-y-0 opacity-100"
                 : "translate-y-8 opacity-0"
@@ -88,6 +97,7 @@ export function Hero() {
             </a>
           </div>
         </div>
+
       </section>
       <About />
       <Skills />
