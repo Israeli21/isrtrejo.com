@@ -30,7 +30,7 @@ export function Hero() {
         className="relative min-h-screen w-full flex items-center px-6 md:px-12 lg:px-20 overflow-hidden"
       >
         {/* Galaxy Image */}
-        <div className="absolute inset-0 bg-black">
+        <div className="absolute inset-0 bg-black pointer-events-none">
           <img 
             src="/images/galaxy.jpg" 
             alt="Galaxy"
@@ -41,7 +41,7 @@ export function Hero() {
         <a
           href="#about"
           className="absolute bottom-12 left-1/2 transform -translate-x-1/2 flex flex-col items-center 
-                    text-gray-400 hover:text-[#4ECDC4] transition-colors duration-300"
+                    text-gray-400 hover:text-[#4ECDC4] transition-colors duration-300 z-20 scroll-smooth"
         >
           <p className="text-sm mb-2">Scroll Down</p>
           <ArrowDownIcon size={20} className="animate-bounce"/>
