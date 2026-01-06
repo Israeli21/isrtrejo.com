@@ -3,7 +3,7 @@ import { pictures } from "../../server/data/pictures";
 
 export function About() {
   return (
-    <section id="about" className="min-h-screen w-full flex flex-col items-center justify-center px-6 md:px-12 lg:px-20 bg-black text-white">
+    <section id="about" className="min-h-screen w-full flex flex-col items-center justify-start px-6 md:px-12 lg:px-20 bg-black text-white pt-32">
       <h2 className="text-4xl md:text-5xl font-bold mb-8">
         About Me
       </h2>
@@ -17,7 +17,7 @@ export function About() {
           <PicturePile pictures={pictures} />
         </div>
         <div className="grid col-span-2 pl-20 max-w-3xl text-lg md:text-xl leading-relaxed">
-          <div className="flex flex-col justify-center h-full">
+          <div className="flex flex-col justify-center h-full pb-28">
             <p className="mb-4">
               I’m Israel Trejo, currently a Senior Computer Science student at the University of Houston with a passion 
               for <span className="font-bold">Data Science</span> and <span className="font-bold">Software Engineering</span>. 
@@ -28,6 +28,9 @@ export function About() {
               My hobbies outside of tech include drawing comics, animating, playing the guitar and lifting weights at home.
             </p>
           </div>
+          {/* <div className="relative">
+            <img className="absolute bottom-[-60px] right-4 w-[370px] " src="/images/pulsar_map.jpg"/>
+          </div> */}
         </div>
       </div>
     </section>

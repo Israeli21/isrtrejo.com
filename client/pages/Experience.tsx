@@ -3,7 +3,7 @@ import { experiences } from "../../server/data/experience";
 
 export function Experience() {
   return (
-    <section id="experience" className="min-h-screen bg-black w-full pt-12 flex flex-col items-center justify-center px-6 md:px-12 lg:px-20 text-white">
+    <section id="experience" className="min-h-screen bg-black w-full flex flex-col items-center justify-start px-6 md:px-12 lg:px-20 text-white pt-32">
       <h2 className="text-4xl md:text-5xl font-bold mb-8">
         My Experience
       </h2>
