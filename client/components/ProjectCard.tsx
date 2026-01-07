@@ -1,3 +1,6 @@
+import { useEffect, useState } from "react";
+import { GithubIcon } from "lucide-react";
+
 import { skills as allSkills } from "../../server/data/skills";
 
 type Project = {
@@ -19,8 +22,13 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   ).filter(Boolean);
 
   return (
-    <div className="bg-[#13151c] border-2 border-[#4682B4]/50 rounded-lg p-6 hover:border-[#4682B4] transition-all duration-300 w-full max-w-xl cursor-pointer">
+    <div className="bg-[#13151c] border-2 relative border-[#4682B4]/50 rounded-lg p-6 hover:border-[#4682B4] transition-all duration-300 w-full max-w-xl cursor-pointer">
       <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>
+      <div className="absolute top-6 right-6 flex flex-col items-center gap-1">
+        <a href={project.link} target="_blank" rel="noopener noreferrer">
+          <GithubIcon className="w-6 h-6 text-gray-400 hover:text-[#4682B4] transition-colors" />
+        </a><p className="text-sm">Code</p>
+      </div>
       <p className="text-sm text-gray-400 mb-4">
         {project.startDate} - {project.endDate}
       </p>
