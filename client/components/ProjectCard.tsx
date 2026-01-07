@@ -19,7 +19,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   ).filter(Boolean);
 
   return (
-    <div className="bg-[#13151c] border-2 border-[#4ECDC4]/30 rounded-lg p-6 hover:border-[#4ECDC4] transition-all duration-300 w-full max-w-xl cursor-pointer">
+    <div className="bg-[#13151c] border-2 border-[#4682B4]/50 rounded-lg p-6 hover:border-[#4682B4] transition-all duration-300 w-full max-w-xl cursor-pointer">
       <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>
       <p className="text-sm text-gray-400 mb-4">
         {project.startDate} - {project.endDate}

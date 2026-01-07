@@ -29,7 +29,9 @@ export function About() {
             </p>
           </div>
           <div className="relative">
-            <img className="absolute bottom-[-60px] right-2 w-[380px] " src="/images/pulsar_map.jpg"/>
+            <img className="absolute bottom-[-70px] right-4 w-[400px]
+              filter grayscale brightness-200 contrast-100 mix-blend-screen" 
+              src="/images/pulsar_map.png"/>
           </div>
         </div>
       </div>
