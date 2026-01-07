@@ -28,10 +28,14 @@ export function About() {
               My hobbies outside of tech include drawing comics, animating, playing the guitar and lifting weights at home.
             </p>
           </div>
-          <div className="relative">
+          <div className="group relative">
             <img className="absolute bottom-[-70px] right-4 w-[400px]
               filter grayscale brightness-200 contrast-100 mix-blend-screen" 
               src="/images/pulsar_map.png"/>
+            <div className="absolute border border-gray-500 shadow-lg shadow-[#4ECDC4]/30 bg-black bottom-[50px] right-[430px] w-[260px] text-sm py-3 px-5
+                opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              <p><span className="font-bold">Pulsar Map: </span>This diagram appears on the covers of the Voyager spacecrafts. Used to locate Earth in the galaxy, using 14 pulsars</p>
+            </div>
           </div>
         </div>
       </div>
