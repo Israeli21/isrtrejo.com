@@ -11,7 +11,7 @@ export function Contact() {
         <div className="stars3"></div>
       </div>
       <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white text-center relative z-10">Contact Me</h2>
-      <div className="flex justify-center gap-10 p-10 border border-gray-700 rounded-lg px-14 bg-black relative z-10">
+      <div className="flex justify-center gap-10 p-10 border border-2 border-gray-700 rounded-lg px-14 bg-black relative z-10">
         <div className="flex items-center gap-4">
           <a
             href="https://www.linkedin.com/in/israel-trejo-2863a8226/"
