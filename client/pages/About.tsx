@@ -17,7 +17,7 @@ export function About() {
           <PicturePile pictures={pictures} />
         </div>
         <div className="grid col-span-2 pl-20 max-w-3xl text-lg md:text-xl leading-relaxed">
-          <div className="flex flex-col justify-center h-full pb-28">
+          <div className="flex flex-col justify-center h-full pb-36">
             <p className="mb-4">
               I’m Israel Trejo, currently a Senior Computer Science student at the University of Houston with a passion 
               for <span className="font-bold">Data Science</span> and <span className="font-bold">Software Engineering</span>. 
@@ -28,9 +28,9 @@ export function About() {
               My hobbies outside of tech include drawing comics, animating, playing the guitar and lifting weights at home.
             </p>
           </div>
-          {/* <div className="relative">
-            <img className="absolute bottom-[-60px] right-4 w-[370px] " src="/images/pulsar_map.jpg"/>
-          </div> */}
+          <div className="relative">
+            <img className="absolute bottom-[-60px] right-2 w-[380px] " src="/images/pulsar_map.jpg"/>
+          </div>
         </div>
       </div>
     </section>
