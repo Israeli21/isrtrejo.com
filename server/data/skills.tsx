@@ -51,15 +51,11 @@ export const skills: Skill[] = [
   },
   {
     name: "Express",
-    icon: "https://mvpdevelopmentteam.com/wp-content/uploads/2024/02/vector-2-3.png",
+    icon: "/images/express-logo.png",
   },
   {
     name: "Next.js",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
-  },
-  {
-    name: "Postman",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
   },
   {
     name: "Bash",
@@ -100,5 +96,33 @@ export const skills: Skill[] = [
   {
     name: "Vercel",
     icon: "https://pipedream.com/s.v0/app_XaLh2x/logo/orig",
+  },
+  {
+    name: "Flask",
+    icon: "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Flask-Dark.svg",
+  },
+  {
+    name: "Jupyter",
+    icon: "https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_200,h_200/https://api.charmhub.io/api/v1/media/download/charm_RswXkJwVSTxU29GnlSeSjzRSsPzhOGsh_icon_fde574967418afe93bb032808563e40e63606adb805113065acfa35010332164.png",
+  },
+  {
+    name: "Supabase",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNfSt0xBDTUkGqyLPvZa5PBHYNVg-WJ2OWPQ&s",
+  },
+  {
+    name: "AWS",
+    icon: "https://www.telestream.net/aws/images/aws.png",
+  },
+  {
+    name: "Power BI",
+    icon: "https://www.onesixsolutions.com/wp-content/uploads/2024/11/Power-BI-Detail-Page.png",
+  },
+  {
+    name: "Linux",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+  },
+  {
+    name: "Colab",
+    icon: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-colab-icon.png",
   }
 ];
