@@ -22,7 +22,7 @@ export const projects: Project[] = [
         startDate: "Feb 2025",
         endDate: "Aug 2025",
         link: "https://github.com/alakram01/UH_Market_Place",
-        skills: ["TypeScript", "React", "Tailwind"],
+        skills: ["TypeScript", "React", "Next.js", "Tailwind", "MySQL", "Express", "Git"],
     },
     {
         title: "Shell AI Hackathon 2025",
@@ -30,7 +30,7 @@ export const projects: Project[] = [
         startDate: "July 2025",
         endDate: "Aug 2025",
         link: "https://github.com/LD-Shell/shell_hackathon_2025",
-        skills: ["Python", "Sklearn", "Pytorch"],
+        skills: ["Python", "Sklearn", "Pytorch", "Flask", "Pandas", "Jupyter"],
     },
     {
         title: "CodeRED Hackathon",
@@ -38,7 +38,7 @@ export const projects: Project[] = [
         startDate: "Oct 2025",
         endDate: "Nov 2025",
         link: "https://github.com/Israeli21/CodeRED",
-        skills: ["Python", "Pandas", "Streamlit"],
+        skills: ["Python", "Pandas", "Streamlit", "Jupyter", "Pandas", "Git"],
     },
     {
         title: "Altairium Grant Writing Assistant",
@@ -46,7 +46,7 @@ export const projects: Project[] = [
         startDate: "Oct 2025",
         endDate: "Dec 2025",
         link: "https://github.com/Israeli21/altairium-grant-writing-tool",
-        skills: ["TypeScript", "Python", "React", "Tailwind"],
+        skills: ["TypeScript", "Python", "React", "Tailwind", "Supabase", "Git"],
     },
     {
         title: "360 Image Viewer",
@@ -54,6 +54,6 @@ export const projects: Project[] = [
         startDate: "Oct 2025",
         endDate: "Present",
         link: "https://github.com/Israeli21/360-image-viewer",
-        skills: ["TypeScript", "React", "Three.js", "Python"],
+        skills: ["TypeScript", "React", "Three.js", "Python", "Colab", "Git"],
     }
 ];
