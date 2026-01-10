@@ -8,21 +8,29 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+    // {
+    //     title: "Coogs for Energy Hachathon Winner",
+    //     description: "Designed a biomass-to-RNG conversion model that improved energy yield by 25% using lifecycle analysis, leading to judges’ recommendation to pursue commercialization of the concept. Worked in a diverse team of 6, which includes chemical engineers, business, and computer science majors",
+    //     startDate: "Jan 2025",
+    //     endDate: "Feb 2025",
+    //     link: "https://github.com/DavidAOdim/digestate-market",
+    //     skills: ["Figma"],
+    // },
+    // {
+    //     title: "UH Student Campus Website",
+    //     description: "Helped develop the frontend design for a marketplace/tutoring website exclusively for students. Constructed features for tutoring information and student marketplace listings.",
+    //     startDate: "Feb 2025",
+    //     endDate: "Aug 2025",
+    //     link: "https://github.com/alakram01/UH_Market_Place",
+    //     skills: ["TypeScript", "React", "Next.js", "Tailwind", "MySQL", "Express", "Git"],
+    // },
     {
-        title: "Coogs for Energy Hachathon Winner",
-        description: "Designed a biomass-to-RNG conversion model that improved energy yield by 25% using lifecycle analysis, leading to judges’ recommendation to pursue commercialization of the concept. Worked in a diverse team of 6, which includes chemical engineers, business, and computer science majors",
-        startDate: "Jan 2025",
-        endDate: "Feb 2025",
-        link: "https://github.com/DavidAOdim/digestate-market",
-        skills: ["Figma"],
-    },
-    {
-        title: "UH Student Campus Website",
-        description: "Helped develop the frontend design for a marketplace/tutoring website exclusively for students. Constructed features for tutoring information and student marketplace listings.",
-        startDate: "Feb 2025",
+        title: "Volentra",
+        description: "Volentra is a full-stack volunteer matching platform, that connects volunteers to events that best match their skills and location through a custom matching algorithm.",
+        startDate: "July 2025",
         endDate: "Aug 2025",
-        link: "https://github.com/alakram01/UH_Market_Place",
-        skills: ["TypeScript", "React", "Next.js", "Tailwind", "MySQL", "Express", "Git"],
+        link: "https://github.com/Sthiber/COSC-4353-Project",
+        skills: ["JavaScript", "React", "Tailwind", "Node.js", "Docker", "MySQL", "Git", "Vercel"]
     },
     {
         title: "Shell AI Hackathon 2025",
@@ -38,7 +46,7 @@ export const projects: Project[] = [
         startDate: "Oct 2025",
         endDate: "Nov 2025",
         link: "https://github.com/Israeli21/CodeRED",
-        skills: ["Python", "Pandas", "Streamlit", "Jupyter", "Pandas", "Git"],
+        skills: ["Jupyter", "Python", "Pandas", "Streamlit", "Git", "Sklearn"],
     },
     {
         title: "Altairium Grant Writing Assistant",
