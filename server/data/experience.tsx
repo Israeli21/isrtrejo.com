@@ -12,7 +12,7 @@ export const experiences: Experience[] = [
         company: "Altairium",
         role: "Software Engineer Intern",
         startDate: "October 2025",
-        endDate: "Present",
+        endDate: "December 2025",
         responsibilities: [
             "Developed a Grant Writing Tool that automates key proposal sections, reducing draft creation time by 40% to help non-profits write grants",
             "Strong collaboration with 10 team members to research techniques"

@@ -38,14 +38,16 @@ export function Hero() {
           />
         </div>
 
-        <a
-          href="#about"
-          className="absolute bottom-12 left-1/2 transform -translate-x-1/2 flex flex-col items-center 
-                    text-gray-400 hover:text-[#4ECDC4] transition-colors duration-300 z-20 scroll-smooth"
-        >
-          <p className="text-sm mb-2">Scroll Down</p>
-          <ArrowDownIcon size={20} className="animate-bounce"/>
-        </a>
+        <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 flex flex-col items-center 
+                      text-[#4ECDC4] transition-colors duration-300 z-20 scroll-smooth hover:drop-shadow-[0_5px_15px_white] transition duration-300">
+          <a
+            href="#about"
+            className="flex flex-col items-center"
+          >
+            <p className="text-sm mb-2">Scroll Down</p>
+            <ArrowDownIcon size={20} className="animate-bounce justify-center align-middle"/>
+          </a>
+        </div>
 
         {/* Content */}
         <div className={`relative z-10 max-w-2xl pl-16 transition-all duration-700 ${
@@ -54,29 +56,29 @@ export function Hero() {
                 : "translate-y-8 opacity-0"
             }`}>
 
-          <p className="text-xl md:text-2xl text-gray-300 mb-2 font-light">
+          <p className="text-xl md:text-2xl text-gray-300 mb-1">
             Hello, I'm</p>
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-2 bg-gradient-to-r from-white from-60% to-[rgb(163,167,225)] bg-clip-text text-transparent leading-tight pb-4">
+          <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-1 bg-gradient-to-r from-white from-60% to-[rgb(163,167,225)] bg-clip-text text-transparent leading-tight pb-4">
             Israel Trejo</h1>
-          <p className="text-2xl md:text-3xl text-gray-300 mb-10 font-normal">
+          <p className="text-2xl md:text-3xl text-gray-300 mb-8 font-normal">
             Exploring the universe of tech</p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
             <a href="/resume/Israel_Trejo_Resume.pdf" download="Israel_Trejo_Resume.pdf">
-              <button className="px-8 py-4 text-base font-medium rounded-full border-2 border-white bg-transparent text-white hover:bg-white hover:text-black transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_10px_25px_rgba(255,255,255,0.2)]"
+              <button className="px-8 py-4 text-base font-medium rounded-full border-2 border-white bg-transparent text-white hover:bg-white hover:text-black transition-all duration-300 hover:shadow-[0_10px_25px_rgba(255,255,255,0.2)]"
                       >
                 Download CV
               </button>
             </a>
             <a href="#contact">
-              <button className="px-8 py-4 text-base font-medium rounded-full border-2 border-white bg-white text-black hover:bg-transparent hover:text-white transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_10px_25px_rgba(255,255,255,0.2)]">
+              <button className="px-8 py-4 text-base font-medium rounded-full border-2 border-white bg-white text-black hover:bg-transparent hover:text-white transition-all duration-300 hover:shadow-[0_10px_25px_rgba(255,255,255,0.2)]">
                 Contact Info
               </button>
             </a>
           </div>
 
           {/* Social Links */}
-          <div className="flex gap-6 pl-2">
+          <div className="flex gap-6 pl-4">
             <a
               href="https://www.linkedin.com/in/israel-trejo-2863a8226/"
               target="_blank"
