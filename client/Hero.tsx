@@ -58,8 +58,10 @@ export function Hero() {
 
           <p className="text-xl md:text-2xl text-gray-300 mb-1">
             Hello, I'm</p>
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-1 bg-gradient-to-r from-white from-60% to-[rgb(163,167,225)] bg-clip-text text-transparent leading-tight pb-4">
-            Israel Trejo</h1>
+          <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-1 
+            leading-tight pb-4">
+            <span className="bg-gradient-to-r from-[rgb(203,215,248)] to-30% to-white bg-clip-text text-transparent">Israel </span>
+            <span className="bg-gradient-to-r from-white from-50% to-[rgb(172,176,230)] bg-clip-text text-transparent">Trejo</span></h1>
           <p className="text-2xl md:text-3xl text-gray-300 mb-8 font-normal">
             Exploring the universe of tech</p>
 
