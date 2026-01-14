@@ -74,86 +74,86 @@ export const skills: Skill[] = [
   {
     name: "Bash",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg",
-    link: ""
+    link: "https://www.gnu.org/software/bash/"
   },
   {
     name: "Latex",
     icon: "https://repository-images.githubusercontent.com/62875407/37177d80-03e2-11ea-9bc8-bbe949411d11",
-    link: ""
+    link: "https://www.latex-project.org/"
   },
   {
     name: "Pandas",
     icon: "https://pandas.pydata.org/static/img/pandas_mark.svg",
-    link: ""
+    link: "https://pandas.pydata.org/"
   },
     {
     name: "Streamlit",
     icon: "https://streamlit.io/images/brand/streamlit-mark-color.svg",
-    link: ""
+    link: "https://streamlit.io/"
   },
   {
     name: "Sklearn",
     icon: "https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png",
-    link: ""
+    link: "https://scikit-learn.org/stable/"
   },
   {
     name: "Pytorch",
     icon: "https://pytorch.org/assets/images/pytorch-logo.png",
-    link: ""
+    link: "https://pytorch.org/"
   },
   {
     name: "Figma",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
-    link: ""
+    link: "https://www.figma.com/"
   },
   {
     name: "Three.js",
     icon: "https://canada1.discourse-cdn.com/flex035/uploads/threejs/original/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751.png",
-    link: ""
+    link: "https://threejs.org/"
   },
   {
     name: "TensorFlow",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg",
-    link: ""
+    link: "https://www.tensorflow.org/"
   },
   {
     name: "Vercel",
     icon: "https://pipedream.com/s.v0/app_XaLh2x/logo/orig",
-    link: ""
+    link: "https://vercel.com/"
   },
   {
     name: "Flask",
     icon: "https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Flask-Dark.svg",
-    link: ""
+    link: "https://flask.palletsprojects.com/"
   },
   {
     name: "Jupyter",
     icon: "https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_200,h_200/https://api.charmhub.io/api/v1/media/download/charm_RswXkJwVSTxU29GnlSeSjzRSsPzhOGsh_icon_fde574967418afe93bb032808563e40e63606adb805113065acfa35010332164.png",
-    link: ""
+    link: "https://jupyter.org/"
   },
   {
     name: "Supabase",
     icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNfSt0xBDTUkGqyLPvZa5PBHYNVg-WJ2OWPQ&s",
-    link: ""
+    link: "https://supabase.com/"
   },
   {
     name: "AWS",
     icon: "https://www.telestream.net/aws/images/aws.png",
-    link: ""
+    link: "https://aws.amazon.com/  "
   },
   {
     name: "Power BI",
     icon: "https://www.onesixsolutions.com/wp-content/uploads/2024/11/Power-BI-Detail-Page.png",
-    link: ""
+    link: "https://powerbi.microsoft.com/"
   },
   {
     name: "Linux",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
-    link: ""
+    link: "https://www.linux.org/"
   },
   {
     name: "Colab",
     icon: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-colab-icon.png",
-    link: ""
+    link: "https://colab.research.google.com/"
   }
 ];
