@@ -5,6 +5,7 @@ export type Experience = {
     role: string;
     responsibilities: string[];
     image: string;
+    link: string;
 };
 
 export const experiences: Experience[] = [
@@ -17,7 +18,8 @@ export const experiences: Experience[] = [
             "Developed a Grant Writing Tool that automates key proposal sections, reducing draft creation time by 40% to help non-profits write grants",
             "Strong collaboration with 10 team members to research techniques"
         ],
-        image: "/images/Altairium-Logo.png"
+        image: "/images/Altairium-Logo.png",
+        link: "https://www.linkedin.com/company/altairium/posts/?feedView=all"
     },
         {
         company: "Structures & Artificial Intelligence Lab",
@@ -28,7 +30,8 @@ export const experiences: Experience[] = [
             "Research & develop solutions for infrastructure problems through cross-disciplinary projects",
             "Collaborated on projects with fellow assistants, through computer vision, robotics, digital twin technologies, AI and deep learning"
         ],
-        image: "/images/SAIL-Logo.png"
+        image: "/images/SAIL-Logo.png",
+        link: "https://sail.cive.uh.edu/"
     },
     {
         company: "CougarCS Tutoring",
@@ -39,6 +42,7 @@ export const experiences: Experience[] = [
             "Tutored 100+ students in computer science courses through 1:1 sessions and workshops",
             "Led a team of 10 tutors in creating organized preparations for students to prepare for exams, and deepen understanding of course material"
         ],
-        image: "/images/CougarCSTutoring-Logo.png"
+        image: "/images/CougarCSTutoring-Logo.png",
+        link: "https://cougarcs.com/"
     }
 ];

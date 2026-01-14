@@ -5,6 +5,7 @@ type Experience = {
   role: string;
   responsibilities: string[];
   image: string;
+  link: string;
 }
 
 type ExperienceCardProps = {
@@ -26,9 +27,11 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
           ))}
         </ul>
       </div>
-      <img src={experience.image} 
+      <a href={experience.link} target="_blank" rel="noopener noreferrer" className="mb-2 block">
+        <img src={experience.image} 
         alt={`${experience.company} logo`} 
         className="mt-4 w-36 h-auto rounded-full mx-auto" />
+      </a>
     </div>
   );
 }
