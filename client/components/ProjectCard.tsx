@@ -50,19 +50,21 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       <div className="flex flex-wrap gap-3 mt-4">
         {projectSkills.map((skill) => skill && (
           <div key={skill.name} className="flex items-center gap-2 bg-[#1a1d28] px-3 py-2 rounded-lg group hover:bg-[#4ECDC4]/10 transition-colors">
-            <img
-              src={skill.icon}
-              alt={skill.name}
-              className="w-6 h-6 object-contain"
-              loading="lazy"
-              onError={(e) => {
-                e.currentTarget.src =
-                  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg";
-              }}
-            />
-            <span className="text-sm text-gray-300 group-hover:text-[#4ECDC4] transition-colors">
-              {skill.name}
-            </span>
+            <a href={skill.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+              <img
+                src={skill.icon}
+                alt={skill.name}
+                className="w-6 h-6 object-contain"
+                loading="lazy"
+                onError={(e) => {
+                  e.currentTarget.src =
+                    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg";
+                }}
+              />
+              <span className="text-sm text-gray-300 group-hover:text-[#4ECDC4] transition-colors">
+                {skill.name}
+              </span>
+            </a>
           </div>
         ))}
       </div>
