@@ -15,7 +15,7 @@ export function TopBar() {
           <li>
             <a 
               href="#about" 
-              className="text-white hover:text-gray-300 transition-colors duration-300"
+              className="text-white hover:underline decoration-2 underline-offset-8 transition-underline duration-300"
             >
               About
             </a>
@@ -23,7 +23,7 @@ export function TopBar() {
           <li>
             <a 
               href="#skills" 
-              className="text-white hover:text-gray-300 transition-colors duration-300"
+              className="text-white hover:underline decoration-2 underline-offset-8 transition-underline duration-300"
             >
               Skills
             </a>
@@ -31,7 +31,7 @@ export function TopBar() {
           <li>
             <a 
               href="#experience" 
-              className="text-white hover:text-gray-300 transition-colors duration-300"
+              className="text-white hover:underline decoration-2 underline-offset-8 transition-underline duration-300"
             >
               Experience
             </a>
@@ -39,7 +39,7 @@ export function TopBar() {
           <li>
             <a 
               href="#projects" 
-              className="text-white hover:text-gray-300 transition-colors duration-300"
+              className="text-white hover:underline decoration-2 underline-offset-8 transition-underline duration-300"
             >
               Projects
             </a>
@@ -47,7 +47,7 @@ export function TopBar() {
           <li>
             <a 
               href="#contact" 
-              className="text-white hover:text-gray-300 transition-colors duration-300"
+              className="text-white hover:underline decoration-2 underline-offset-8 transition-underline duration-300"
             >
               Contact
             </a>

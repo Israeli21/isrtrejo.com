@@ -44,5 +44,29 @@ export const experiences: Experience[] = [
         ],
         image: "/images/CougarCSTutoring-Logo.png",
         link: "https://cougarcs.com/"
-    }
+    },
+    // {
+    //     company: "Energy AI Solutions",
+    //     role: "Software Engineer Intern",
+    //     startDate: "Jan 2026",
+    //     endDate: "April 2026",
+    //     responsibilities: [
+    //         "Tutored 100+ students in computer science courses through 1:1 sessions and workshops",
+    //         "Led a team of 10 tutors in creating organized preparations for students to prepare for exams, and deepen understanding of course material"
+    //     ],
+    //     image: "/images/CougarCSTutoring-Logo.png",
+    //     link: "https://cougarcs.com/"
+    // },
+    // {
+    //     company: "NASA",
+    //     role: "Software Engineer Intern",
+    //     startDate: "Feb 2026",
+    //     endDate: "March 2026",
+    //     responsibilities: [
+    //         "Tutored 100+ students in computer science courses through 1:1 sessions and workshops",
+    //         "Led a team of 10 tutors in creating organized preparations for students to prepare for exams, and deepen understanding of course material"
+    //     ],
+    //     image: "/images/CougarCSTutoring-Logo.png",
+    //     link: "https://cougarcs.com/"
+    // }
 ];

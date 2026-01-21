@@ -19,5 +19,9 @@ export const pictures: Picture[] = [
     {
         name: "Live Drawing 2",
         picture: "/images/live_drawing2.jpg",
+    },
+    {
+        name: "My Cat",
+        picture: "/images/my_cat.jpg",
     }
 ];
