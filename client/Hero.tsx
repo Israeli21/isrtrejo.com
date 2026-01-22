@@ -39,7 +39,7 @@ export function Hero() {
         </div>
 
         <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 flex flex-col items-center 
-                      text-[#4ECDC4] transition-colors duration-300 z-20 scroll-smooth hover:drop-shadow-[0_5px_15px_white] transition duration-300">
+                      text-[#4ECDC4] transition-colors duration-300 z-20 scroll-smooth hover:drop-shadow-[0_5px_15px_yellow] transition duration-300">
           <a
             href="#about"
             className="flex flex-col items-center"
