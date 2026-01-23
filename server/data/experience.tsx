@@ -25,7 +25,7 @@ export const experiences: Experience[] = [
         company: "Structures & Artificial Intelligence Lab",
         role: "Undergraduate Researcher",
         startDate: "August 2025",
-        endDate: "Present",
+        endDate: "January 2026",
         responsibilities: [
             "Research & develop solutions for infrastructure problems through cross-disciplinary projects",
             "Collaborated on projects with fellow assistants, through computer vision, robotics, digital twin technologies, AI and deep learning"
@@ -49,24 +49,24 @@ export const experiences: Experience[] = [
     //     company: "Energy AI Solutions",
     //     role: "Software Engineer Intern",
     //     startDate: "Jan 2026",
-    //     endDate: "April 2026",
+    //     endDate: "Present",
     //     responsibilities: [
     //         "Tutored 100+ students in computer science courses through 1:1 sessions and workshops",
     //         "Led a team of 10 tutors in creating organized preparations for students to prepare for exams, and deepen understanding of course material"
     //     ],
-    //     image: "/images/CougarCSTutoring-Logo.png",
-    //     link: "https://cougarcs.com/"
+    //     image: "https://media.licdn.com/dms/image/v2/D560BAQH19ltvviaYZQ/company-logo_200_200/company-logo_200_200/0/1709233092071/energyaisolutions_logo?e=2147483647&v=beta&t=gjzgPbwXbRAoXJUfr93d_V4_vkTT3BIWak67zHRYyBI",
+    //     link: "https://energyaisolutions.com/"
     // },
     // {
     //     company: "NASA",
     //     role: "Software Engineer Intern",
     //     startDate: "Feb 2026",
-    //     endDate: "March 2026",
+    //     endDate: "Present",
     //     responsibilities: [
     //         "Tutored 100+ students in computer science courses through 1:1 sessions and workshops",
     //         "Led a team of 10 tutors in creating organized preparations for students to prepare for exams, and deepen understanding of course material"
     //     ],
-    //     image: "/images/CougarCSTutoring-Logo.png",
-    //     link: "https://cougarcs.com/"
+    //     image: "/images/NASA-logo.png",
+    //     link: "https://www.nasa.gov/"
     // }
 ];

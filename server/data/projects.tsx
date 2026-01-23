@@ -54,7 +54,7 @@ export const projects: Project[] = [
     },
     {
         title: "Altairium Grant Writing Assistant",
-        description: "Developed an AI-driven tool to assist researchers in writing grant proposals by generating tailored content based on specific research objectives and funding agency requirements, enhancing proposal quality and submission efficiency",
+        description: "Developed an AI-driven tool to assist non-profits in writing grant proposals, reducing time spent on drafting by 40% through automated content generation and formatting suggestions.",
         startDate: "Oct 2025",
         endDate: "Dec 2025",
         link: "https://github.com/Israeli21/altairium-grant-writing-tool",
