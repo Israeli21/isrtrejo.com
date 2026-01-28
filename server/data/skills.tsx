@@ -86,7 +86,7 @@ export const skills: Skill[] = [
     icon: "https://pandas.pydata.org/static/img/pandas_mark.svg",
     link: "https://pandas.pydata.org/"
   },
-    {
+  {
     name: "Streamlit",
     icon: "https://streamlit.io/images/brand/streamlit-mark-color.svg",
     link: "https://streamlit.io/"
@@ -136,11 +136,11 @@ export const skills: Skill[] = [
     icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNfSt0xBDTUkGqyLPvZa5PBHYNVg-WJ2OWPQ&s",
     link: "https://supabase.com/"
   },
-  {
-    name: "AWS",
-    icon: "https://www.telestream.net/aws/images/aws.png",
-    link: "https://aws.amazon.com/  "
-  },
+  // {
+  //   name: "AWS",
+  //   icon: "https://www.telestream.net/aws/images/aws.png",
+  //   link: "https://aws.amazon.com/  "
+  // },
   {
     name: "Power BI",
     icon: "https://www.onesixsolutions.com/wp-content/uploads/2024/11/Power-BI-Detail-Page.png",
