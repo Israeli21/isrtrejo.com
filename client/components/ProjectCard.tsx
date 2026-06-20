@@ -46,25 +46,25 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       <p className="text-sm text-gray-400 mb-4">
         {project.startDate} - {project.endDate}
       </p>
-      <p className="text-gray-300 mb-4">{project.description}</p>
+      <p className="text-gray-300 mb-6">{project.description}</p>
       <div className="flex flex-wrap gap-3 mt-4">
         {projectSkills.map((skill) => skill && (
-          <div key={skill.name} className="flex items-center gap-2 bg-[#1a1d28] px-3 py-2 rounded-lg group hover:bg-[#4ECDC4]/10 transition-colors">
-            <a href={skill.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+          <div key={skill.name} className="relative bg-[#1a1d28] px-1 py-1 hr-1 rounded-lg group hover:bg-[#4682B4]/20 transition-colors">
+            <a href={skill.link} target="_blank" rel="noopener noreferrer">
               <img
                 src={skill.icon}
                 alt={skill.name}
-                className="w-6 h-6 object-contain"
+                className="w-8 h-8 object-contain"
                 loading="lazy"
                 onError={(e) => {
                   e.currentTarget.src =
                     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg";
                 }}
               />
-              <span className="text-sm text-gray-300 group-hover:text-[#4ECDC4] transition-colors">
-                {skill.name}
-              </span>
             </a>
+            <span className="absolute top-full left-1/2 transform -translate-x-1/2 mt-1 text-xs text-gray-300 opacity-0 group-hover:opacity-100 group-hover:text-white transition-all duration-200 whitespace-nowrap bg-[#1a1d28] px-2 py-1 rounded">
+              {skill.name}
+            </span>
           </div>
         ))}
       </div>

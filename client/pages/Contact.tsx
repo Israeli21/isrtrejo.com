@@ -17,6 +17,7 @@ export function Contact() {
       </div>
 
       <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white text-center relative z-10">Contact Me</h2>
+      {/* <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white text-center relative z-10">Contáctame</h2> */}
       <div className="flex justify-center gap-10 p-10 border border-2 border-gray-700 rounded-lg px-14 bg-black relative z-10">
         <div className="flex items-center gap-4">
           <a
@@ -53,6 +54,7 @@ export function Contact() {
             <Mail size={32} />
           </a>
           <p className="text-white text-xl">Email</p>
+          {/* <p className="text-white text-xl">Correo</p> */}
         </div>
       </div>
       <div className="absolute w-full bottom-0">

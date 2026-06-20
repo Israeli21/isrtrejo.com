@@ -7,6 +7,9 @@ export function About() {
       <h2 className="text-4xl md:text-5xl font-bold mb-8">
         About Me
       </h2>
+      {/* <h2 className="text-4xl md:text-5xl font-bold mb-8">
+        Sobre Mí
+      </h2> */}
       <div className="absolute inset-0 opacity-70">
         <div className="stars"></div>
         <div className="stars2"></div>
@@ -27,6 +30,16 @@ export function About() {
             <p>
               My hobbies outside of tech include drawing comics, animating, playing the guitar and lifting weights at home.
             </p>
+
+            {/* <p className="mb-4">
+              Soy Israel Trejo, actualmente estudiante de último año de Ciencias de la Computación en la Universidad de 
+              Houston con una pasión por la <span className="font-bold">Ciencia de Datos</span> y la <span className="font-bold">
+              Ingeniería de Software</span>. Yo realmente disfruto trabajar en proyectos que tengan un gran impacto en el mundo. 
+              ¡Soy un jugador de equipo que disfruta trabajar y crecer con otros!
+            </p>
+            <p>
+              Mis pasatiempos fuera de la tecnología incluyen dibujar cómics, animar, tocar la guitarra y levantar pesas en casa.
+            </p> */}
           </div>
           <div className="group relative">
             <img className="absolute bottom-[-70px] right-4 w-[400px]
@@ -34,6 +47,7 @@ export function About() {
               src="/images/pulsar_map.png"/>
             <div className="absolute border border-gray-500 bg-black bottom-[50px] right-[430px] w-[260px] text-sm py-4 px-5">
               <p><span className="font-bold">Pulsar Map: </span>This diagram appears on the covers of the Voyager spacecrafts. Used to locate Earth in the galaxy, using 14 pulsars</p>
+              {/* <p><span className="font-bold">Mapa de Pulsar: </span>Este diagrama aparece en las portadas de las naves espaciales Voyager. Se utiliza para localizar la Tierra en la galaxia, utilizando 14 púlsares</p> */}
             </div>
           </div>
         </div>

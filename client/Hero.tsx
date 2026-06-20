@@ -64,6 +64,9 @@ export function Hero() {
           <p className="text-xl uppercase tracking-widest text-gray-300 mb-2">
             Tech Enthusiast • Developer • Designer
           </p> 
+          {/* <p className="text-xl uppercase tracking-widest text-gray-300 mb-4">
+            Ingeniero • Desarrollador • Diseñador
+          </p> */}
 
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-1 leading-tight pb-4"> 
             <span className="text-white">Israel Trejo</span>
@@ -72,6 +75,9 @@ export function Hero() {
           <p className="text-xl md:text-2xl uppercase tracking-wide text-gray-300 mb-8 font-normal"> 
             Exploring the vast universe of tech
           </p>
+          {/* <p className="text-xl uppercase tracking-widest text-gray-300 mb-4">
+            Explorando el vasto universo de la technología
+          </p> */}
 
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
             <a href="/resume/Israel_Trejo_Resume.pdf" download="Israel_Trejo_Resume.pdf">
@@ -79,11 +85,17 @@ export function Hero() {
                       >
                 Download CV
               </button>
+              {/* <button className="px-8 py-4 text-base font-medium rounded-full border-2 border-white bg-transparent text-white hover:bg-white hover:text-black transition-all duration-300 hover:shadow-[0_10px_25px_rgba(255,255,255,0.2)]">
+                Descargar CV
+              </button> */}
             </a>
             <a href="#contact">
               <button className="px-8 py-4 text-base font-medium rounded-full border-2 border-white bg-white text-black hover:bg-transparent hover:text-white transition-all duration-300 hover:shadow-[0_10px_25px_rgba(255,255,255,0.2)]">
                 Contact Info
               </button>
+              {/* <button className="px-8 py-4 text-base font-medium rounded-full border-2 border-white bg-white text-black hover:bg-transparent hover:text-white transition-all duration-300 hover:shadow-[0_10px_25px_rgba(255,255,255,0.2)]">
+                Información de contacto
+              </button> */}
             </a>
           </div>
 
