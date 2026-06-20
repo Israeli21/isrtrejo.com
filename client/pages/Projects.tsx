@@ -1,5 +1,5 @@
 import ProjectCard from "../components/ProjectCard";
-import { projects } from "../../server/data/projects";
+import { projects, proyectos } from "../../server/data/projects";
 
 type ProjectsProps = {
   language: 'en' | 'es';
@@ -13,7 +13,7 @@ export function Projects({ language }: ProjectsProps) {
       </h2>
       <div className="container mx-auto px-6 relative z-10">
         <div className="flex flex-col gap-6 md:gap-8 max-w-5xl mx-auto">
-          {projects.map((project) => (
+          {(language === 'en' ? projects : proyectos).map((project) => (
             <ProjectCard key={project.title} project={project} />
           ))}
         </div>

@@ -44,11 +44,6 @@ export function Hero() {
             alt="Galaxy"
             className = "float-right pt-32 w-[900px] pr-32"
           />
-          {/* <img 
-            src="/images/black-hole.png" 
-            alt="Galaxy"
-            className="absolute left-[46%] bottom-1/32 w-[700px] object-contain"
-          /> */}
         </div>
 
         <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 flex flex-col items-center 

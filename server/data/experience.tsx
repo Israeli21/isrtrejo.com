@@ -9,42 +9,18 @@ export type Experience = {
 };
 
 export const experiences: Experience[] = [
-    // {
-    //     company: "Altairium",
-    //     role: "Software Engineer Intern",
-    //     startDate: "October 2025",
-    //     endDate: "December 2025",
-    //     responsibilities: [
-    //         "Developed a Grant Writing Tool that automates key proposal sections, reducing draft creation time by 40% to help non-profits write grants",
-    //         "Strong collaboration with 10 team members to research techniques"
-    //     ],
-    //     image: "/images/Altairium-Logo.png",
-    //     link: "https://www.linkedin.com/company/altairium/posts/?feedView=all"
-    // },
     {
-        company: "Structures & Artificial Intelligence Lab",
-        role: "Undergraduate Researcher",
-        startDate: "August 2025",
-        endDate: "January 2026",
+        company: "LZ Technologies",
+        role: "Maintenance & Operations Intern",
+        startDate: "Feb 2026",
+        endDate: "Present",
         responsibilities: [
-            "Research & develop solutions for infrastructure problems through cross-disciplinary projects",
-            "Collaborated on projects with fellow assistants, through computer vision, robotics, digital twin technologies, AI and deep learning"
+            "Supporting the MSOC contract with KBR to work on-site at NASA within the Recon and Training Operations Department",
+            "Designed and implemented entry and filtering features to create detailed, searchable logs for Ground Control Console systems"
         ],
-        image: "/images/SAIL-Logo.png",
-        link: "https://sail.cive.uh.edu/"
+        image: "/images/LZ_logo.png",
+        link: "https://lzt.biz/"
     },
-    // {
-    //     company: "CougarCS Tutoring",
-    //     role: "CS Tutor Workshops Officer",
-    //     startDate: "August 2025",
-    //     endDate: "Present",
-    //     responsibilities: [
-    //         "Tutored 100+ students in computer science courses through 1:1 sessions and workshops",
-    //         "Led a team of 10 tutors in creating organized preparations for students to prepare for exams, and deepen understanding of course material"
-    //     ],
-    //     image: "/images/CougarCSTutoring-Logo.png",
-    //     link: "https://cougarcs.com/"
-    // },
     {
         company: "Energy AI Solutions",
         role: "Software Engineer Intern",
@@ -58,15 +34,54 @@ export const experiences: Experience[] = [
         link: "https://energyaisolutions.com/"
     },
     {
+        company: "Structures & Artificial Intelligence Lab",
+        role: "Undergraduate Researcher",
+        startDate: "August 2025",
+        endDate: "January 2026",
+        responsibilities: [
+            "Research & develop solutions for infrastructure problems through cross-disciplinary projects",
+            "Collaborated on projects with fellow assistants, through computer vision, robotics, digital twin technologies, AI and deep learning"
+        ],
+        image: "/images/SAIL-Logo.png",
+        link: "https://sail.cive.uh.edu/"
+    },
+];
+
+export const experiencias: Experience[] = [
+    {
         company: "LZ Technologies",
         role: "Maintenance & Operations Intern",
         startDate: "Feb 2026",
         endDate: "Present",
         responsibilities: [
-            "Supporting the MSOC contract with KBR to work on-site at NASA within the Recon and Training Operations Department",
-            "Designed and implemented entry and filtering features to create detailed, searchable logs for Ground Control Console systems"
+            "Apoyando el contrato MSOC con KBR para trabajar en el sitio de la NASA dentro del Departamento de Operaciones de Reconocimiento y Entrenamiento",
+            "Diseñó e implementó funciones de entrada y filtrado para crear registros detallados para los sistemas de la Consola de Control Terrestre"
         ],
         image: "/images/LZ_logo.png",
         link: "https://lzt.biz/"
-    }
-];
+    },
+    {
+        company: "Energy AI Solutions",
+        role: "Software Engineer Intern",
+        startDate: "Jan 2026",
+        endDate: "May 2026",
+        responsibilities: [
+            "Integró Recombee para construir un sistema de recomendación que sugiere trabajos y tareas personalizadas a los usuarios",
+            "Fuerte colaboración con 10 miembros del equipo para investigar técnicas, proponer soluciones y entregar resultados del proyecto"
+        ],
+        image: "https://media.licdn.com/dms/image/v2/D560BAQH19ltvviaYZQ/company-logo_200_200/company-logo_200_200/0/1709233092071/energyaisolutions_logo?e=2147483647&v=beta&t=gjzgPbwXbRAoXJUfr93d_V4_vkTT3BIWak67zHRYyBI",
+        link: "https://energyaisolutions.com/"
+    },
+    {
+        company: "Structures & Artificial Intelligence Lab",
+        role: "Undergraduate Researcher",
+        startDate: "Agosto 2025",
+        endDate: "Enero 2026",
+        responsibilities: [
+            "Investigar y desarrollar soluciones para problemas de infraestructura a través de proyectos interdisciplinarios",
+            "Colaboró en proyectos con otros asistentes, mediante visión por computadora, robótica, tecnologías de gemelo digital, IA y aprendizaje profundo"
+        ],
+        image: "/images/SAIL-Logo.png",
+        link: "https://sail.cive.uh.edu/"
+    }, 
+]

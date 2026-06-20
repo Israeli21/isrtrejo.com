@@ -1,5 +1,5 @@
 import ExperienceCard from "../components/ExperienceCard";
-import { experiences } from "../../server/data/experience";
+import { experiences, experiencias } from "../../server/data/experience";
 
 type ExperienceProps = {
   language: 'en' | 'es';
@@ -15,7 +15,7 @@ export function Experience({ language }: ExperienceProps) {
       <div className="flex">
         <div className="container mx-auto px-6 relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
-            {experiences.map((experience) => (
+            {(language === 'en' ? experiences : experiencias).map((experience) => (
                 <ExperienceCard key={experience.company} experience={experience} />
             ))}
           </div>
