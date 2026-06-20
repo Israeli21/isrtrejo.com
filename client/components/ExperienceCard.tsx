@@ -14,7 +14,7 @@ type ExperienceCardProps = {
 
 export default function ExperienceCard({ experience }: ExperienceCardProps) {
   return (
-    <div className="bg-[#13151c] border-2 border-[#4ECDC4]/30 rounded-lg p-6 hover:border-[#4ECDC4] transition-all 
+    <div className="bg-[#13151c] border-2 border-[#4682B4]/50 rounded-lg p-6 hover:border-[#4682B4] transition-all 
       duration-300 w-full max-w-xl cursor-pointer flex flex-col h-full">
       <div className="flex-grow">
         <h3 className="text-xl font-semibold text-white mb-2">{experience.role}</h3>
@@ -24,14 +24,14 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
         </p>
         <ul className="list-disc list-inside text-gray-300">
           {experience.responsibilities.map((responsibility, index) => (   
-            <p key={index} className="mb-1">{responsibility}</p>
+            <li key={index} className="mb-1 pb-2">{responsibility}</li>
           ))}
         </ul>
       </div>
-      <a href={experience.link} target="_blank" rel="noopener noreferrer" className="mb-2 block">
+      <a href={experience.link} target="_blank" rel="noopener noreferrer" className="my-0 block">
         <img src={experience.image} 
         alt={`${experience.company} logo`} 
-        className="mt-4 w-36 h-auto rounded-full mx-auto" />
+        className="w-32 h-auto rounded-full mx-auto" />
       </a>
     </div>
   );
