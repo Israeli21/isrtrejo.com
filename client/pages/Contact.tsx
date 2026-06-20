@@ -1,7 +1,11 @@
 import { GithubIcon, LinkedinIcon, Mail } from "lucide-react";
 import { BottomBar } from "../components/BottomBar";
 
-export function Contact() {
+type ContactProps = {
+  language: 'en' | 'es';
+}
+
+export function Contact({ language }: ContactProps) {
   return (
     <>
     <section id="contact" className="relative min-h-screen bg-black w-full flex flex-col items-center justify-center text-white overflow-hidden">
@@ -16,8 +20,7 @@ export function Contact() {
              src="/images/astronaut.jpg"/>
       </div>
 
-      <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white text-center relative z-10">Contact Me</h2>
-      {/* <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white text-center relative z-10">Contáctame</h2> */}
+      <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white text-center relative z-10">{language === 'en' ? 'Contact Me' : 'Contáctame'}</h2>
       <div className="flex justify-center gap-10 p-10 border border-2 border-gray-700 rounded-lg px-14 bg-black relative z-10">
         <div className="flex items-center gap-4">
           <a

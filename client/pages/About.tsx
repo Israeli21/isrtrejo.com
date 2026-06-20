@@ -1,15 +1,16 @@
 import { PicturePile } from "../components/PicturePile";
 import { pictures } from "../../server/data/pictures";
 
-export function About() {
+type AboutProps = {
+  language: 'en' | 'es';
+}
+
+export function About({ language }: AboutProps) {
   return (
     <section id="about" className="min-h-screen w-full flex flex-col items-center justify-start px-6 md:px-12 lg:px-20 bg-black text-white pt-32">
       <h2 className="text-4xl md:text-5xl font-bold mb-8">
-        About Me
+        {language === 'en' ? 'About Me' : 'Sobre Mí'}
       </h2>
-      {/* <h2 className="text-4xl md:text-5xl font-bold mb-8">
-        Sobre Mí
-      </h2> */}
       <div className="absolute inset-0 opacity-70">
         <div className="stars"></div>
         <div className="stars2"></div>
@@ -21,33 +22,41 @@ export function About() {
         </div>
         <div className="grid col-span-2 pl-20 max-w-3xl text-lg md:text-xl leading-relaxed">
           <div className="flex flex-col justify-center h-full pb-36">
-            <p className="mb-4">
-              I’m Israel Trejo, currently a Senior Computer Science student at the University of Houston with a passion 
-              for <span className="font-bold">Data Science</span> and <span className="font-bold">Software Engineering</span>. 
-              I really like working on projects that makes a great impact on the world.
-              I’m a team player that enjoys working and growing with others!
-            </p>
-            <p>
-              My hobbies outside of tech include drawing comics, animating, playing the guitar and lifting weights at home.
-            </p>
-
-            {/* <p className="mb-4">
-              Soy Israel Trejo, actualmente estudiante de último año de Ciencias de la Computación en la Universidad de 
-              Houston con una pasión por la <span className="font-bold">Ciencia de Datos</span> y la <span className="font-bold">
-              Ingeniería de Software</span>. Yo realmente disfruto trabajar en proyectos que tengan un gran impacto en el mundo. 
-              ¡Soy un jugador de equipo que disfruta trabajar y crecer con otros!
-            </p>
-            <p>
-              Mis pasatiempos fuera de la tecnología incluyen dibujar cómics, animar, tocar la guitarra y levantar pesas en casa.
-            </p> */}
+            {language === 'en' ? (
+              <>
+                <p className="mb-4">
+                  I'm Israel Trejo, currently a Senior Computer Science student at the University of Houston with a passion 
+                  for <span className="font-bold">Data Science</span> and <span className="font-bold">Software Engineering</span>. 
+                  I really like working on projects that makes a great impact on the world.
+                  I'm a team player that enjoys working and growing with others!
+                </p>
+                <p>
+                  My hobbies outside of tech include drawing comics, animating, playing the guitar and lifting weights at home.
+                </p>
+              </>
+            ) : (
+              <>
+                <p className="mb-4">
+                  Soy Israel Trejo, actualmente estudiante de último año de Ciencias de la Computación en la Universidad de 
+                  Houston con una pasión por la <span className="font-bold">Ciencia de Datos</span> y la <span className="font-bold">
+                  Ingeniería de Software</span>. Yo realmente disfruto trabajar en proyectos que tengan un gran impacto en el mundo.
+                </p>
+                <p>
+                  Mis pasatiempos fuera de la tecnología incluyen dibujar cómics, animar, tocar la guitarra y levantar pesas en casa.
+                </p>
+              </>
+            )}
           </div>
           <div className="group relative">
             <img className="absolute bottom-[-70px] right-4 w-[400px]
               filter grayscale brightness-200 contrast-100 mix-blend-screen" 
               src="/images/pulsar_map.png"/>
             <div className="absolute border border-gray-500 bg-black bottom-[50px] right-[430px] w-[260px] text-sm py-4 px-5">
-              <p><span className="font-bold">Pulsar Map: </span>This diagram appears on the covers of the Voyager spacecrafts. Used to locate Earth in the galaxy, using 14 pulsars</p>
-              {/* <p><span className="font-bold">Mapa de Pulsar: </span>Este diagrama aparece en las portadas de las naves espaciales Voyager. Se utiliza para localizar la Tierra en la galaxia, utilizando 14 púlsares</p> */}
+              {language === 'en' ? (
+                <p><span className="font-bold">Pulsar Map: </span>This diagram appears on the covers of the Voyager spacecrafts. Used to locate Earth in the galaxy, using 14 pulsars</p>
+              ) : (
+                <p><span className="font-bold">Mapa de Pulsar: </span>Este diagrama aparece en las naves espaciales Voyager. Localiza la Tierra en la galaxia utilizando 14 púlsares</p>
+              )}
             </div>
           </div>
         </div>
