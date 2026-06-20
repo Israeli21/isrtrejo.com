@@ -61,13 +61,22 @@ export const projects: Project[] = [
         skills: ["TypeScript", "Python", "React", "Tailwind", "Supabase", "Git"],
         liveLink: ""
     },
+    // {
+    //     title: "360 Image Viewer",
+    //     description: "Created an interactive 360-degree image viewer, allowing users to upload and explore panoramic images within a web application. Implementation of a point cloud effect to enhance user immersion and engagement.",
+    //     startDate: "Oct 2025",
+    //     endDate: "Present",
+    //     link: "https://github.com/Israeli21/360-image-viewer",
+    //     skills: ["TypeScript", "React", "Three.js", "Python", "Colab", "Git"],
+    //     liveLink: ""
+    // },
     {
-        title: "360 Image Viewer",
-        description: "Created an interactive 360-degree image viewer, allowing users to upload and explore panoramic images within a web application. Implementation of a point cloud effect to enhance user immersion and engagement.",
-        startDate: "Oct 2025",
-        endDate: "Present",
-        link: "https://github.com/Israeli21/360-image-viewer",
-        skills: ["TypeScript", "React", "Three.js", "Python", "Colab", "Git"],
-        liveLink: ""
+        title: "MyBizBrand",
+        description: "Helped design the frontend for a business branding website that provides AI-generated help for people to further their career. Developed the Recombee recommendation system to suggest personalized jobs and tasks to users based on their profile and preferences.",
+        startDate: "Jan 2026",
+        endDate: "May 2026",
+        link: "",
+        skills: ["JavaScript", "Node.js", "MySQL", "React", "Python", "Tailwind", "Git"],
+        liveLink: "https://buildmybizbrand.com/"
     }
 ];
